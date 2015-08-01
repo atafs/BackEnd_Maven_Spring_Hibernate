@@ -1,0 +1,80 @@
+package servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class AppServlet
+ */
+@WebServlet("/AppServlet")
+public class AppServlet extends HttpServlet {
+	
+	//ATTRIBUTES
+	private static final long serialVersionUID = 1L;
+	private String message = "HELLO WORLD OF APPS WEB";
+
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public AppServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	//SERVICE
+	public void service(ServletRequest request, ServletResponse response) throws ServletException, IOException{
+		 // Set response content type
+	      response.setContentType("text/html");
+
+	      // Actual logic goes here.
+	      PrintWriter out = response.getWriter();
+	      out.println("<h1>" + message + "</h1>");
+	      out.println("<body><a href=\"https://www.google.pt/\">LINK TO GOOGLE</a></body>");	
+	
+	      //EXIT
+	      destroy();
+	}
+	
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//		 // Set response content type
+//	      response.setContentType("text/html");
+//
+//	      // Actual logic goes here.
+//	      PrintWriter out = response.getWriter();
+//	      out.println("<h1>" + message + "</h1>");
+//	      out.println("<body><a href=\"https://www.google.pt/\">LINK TO GOOGLE</a></body>");
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+	}
+	
+	//DESTROY
+	public void destroy() {
+		System.out.println("EXIT SERVER APP IN CONSOLE ;-)");
+	}
+	
+
+	
+	//
+	public void init() throws ServletException {
+		System.out.println("START SERVER APP IN CONSOLE ;-)");
+	}
+
+
+}

@@ -1,0 +1,2 @@
+//SERVER LOCATION
+i7 laptop tomcat8 in SSD D:\

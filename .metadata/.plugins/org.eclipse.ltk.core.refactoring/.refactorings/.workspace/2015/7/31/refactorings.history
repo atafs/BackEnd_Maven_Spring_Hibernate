@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;americoLIB_01MavenServletApp&apos; to &apos;americoLIB_01DynamicWebServletApp&apos;" description="Rename resource &apos;americoLIB_01MavenServletApp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/americoLIB_01MavenServletApp" name="americoLIB_01DynamicWebServletApp" stamp="1438382954733" updateReferences="true"/>
+</session>

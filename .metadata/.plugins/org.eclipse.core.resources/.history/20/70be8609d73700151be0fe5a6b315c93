@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>HELLO WORLD OF WEB APPS</title>
+	</head>
+	
+	<body>
+		<a href="https://google.pt">Invoke Generic Servlet</a>
+		
+		<h1>HELLO WEB APPS</h1>
+	</body>
+</html>

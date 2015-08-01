@@ -1,0 +1,7 @@
+#Tomcat publish data
+#Sat Aug 01 02:08:08 BST 2015
+org.eclipse.jst.jee.server\:americoLIB_01DynamicWebServletApp=D\:\\tomcat SERVER\\apache-tomcat-8.0.23\\wtpwebapps\\americoLIB_01DynamicWebServletApp
+org.eclipse.jst.jee.server\:americoLIB_04DynamicWebServlet=D\:\\tomcat SERVER\\apache-tomcat-8.0.23\\wtpwebapps\\americoLIB_04DynamicWebServlet
+org.eclipse.jst.jee.server\:americoLIB_05DynamicWebServlet=D\:\\tomcat SERVER\\apache-tomcat-8.0.23\\wtpwebapps\\americoLIB_05DynamicWebServlet
+org.eclipse.jst.jee.server\:americoLIB_02DynamicWebHTTPApp=D\:\\tomcat SERVER\\apache-tomcat-8.0.23\\wtpwebapps\\americoLIB_02DynamicWebHTTPApp
+org.eclipse.jst.jee.server\:americoLIB_03DynamicWebHTTPApp=D\:\\tomcat SERVER\\apache-tomcat-8.0.23\\wtpwebapps\\americoLIB_03DynamicWebHTTPApp
