@@ -1,0 +1,7 @@
+package americoLIB_06REST.status;
+
+import javax.ws.rs.*;
+
+public class V1_status {
+
+}

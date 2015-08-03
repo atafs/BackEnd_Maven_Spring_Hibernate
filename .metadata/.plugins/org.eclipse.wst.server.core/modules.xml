@@ -2,6 +2,7 @@
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:americoLIB_03DynamicWebHTTPApp" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:americoLIB_02DynamicWebHTTPApp" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:americoLIB_06REST" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:americoLIB_01MavenServletApp" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:americoLIB_01DynamicWebServletApp" serverId="Tomcat v8.0 Server at localhost"/>
 </modules>
