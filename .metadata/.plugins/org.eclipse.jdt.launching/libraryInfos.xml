@@ -19,4 +19,23 @@
 <entry path="D:\java\jdk\JDK8_51\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="D:\OracleWebLogic_SERVER\oracle_common\jdk" version="1.7.0_51">
+<bootpath>
+<entry path="D:\OracleWebLogic_SERVER\oracle_common\jdk\jre\lib\resources.jar"/>
+<entry path="D:\OracleWebLogic_SERVER\oracle_common\jdk\jre\lib\rt.jar"/>
+<entry path="D:\OracleWebLogic_SERVER\oracle_common\jdk\jre\lib\sunrsasign.jar"/>
+<entry path="D:\OracleWebLogic_SERVER\oracle_common\jdk\jre\lib\jsse.jar"/>
+<entry path="D:\OracleWebLogic_SERVER\oracle_common\jdk\jre\lib\jce.jar"/>
+<entry path="D:\OracleWebLogic_SERVER\oracle_common\jdk\jre\lib\charsets.jar"/>
+<entry path="D:\OracleWebLogic_SERVER\oracle_common\jdk\jre\lib\jfr.jar"/>
+<entry path="D:\OracleWebLogic_SERVER\oracle_common\jdk\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\OracleWebLogic_SERVER\oracle_common\jdk\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\OracleWebLogic_SERVER\oracle_common\jdk\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 </libraryInfos>

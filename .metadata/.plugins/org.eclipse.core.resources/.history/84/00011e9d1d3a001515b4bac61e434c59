@@ -1,8 +1,0 @@
-package americoLIB_06REST.status;
-
-import javax.ws.rs.*;
-
-@Path("/v1/status")
-public class V1_status {
-
-}

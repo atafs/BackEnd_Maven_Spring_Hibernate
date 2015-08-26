@@ -11,4 +11,23 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="java.awt.PageAttributes.MediaType"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.util.http.parser.MediaType"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="com.americoLib.UserDetails"/>
+<fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="org.hibernate.Session"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="com.americoLib.UserDetails_Annotation_02"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.persistence.Basic"/>
+<fullyQualifiedTypeName name="javax.persistence.Transient"/>
+<fullyQualifiedTypeName name="javax.persistence.Temporal"/>
 </qualifiedTypeNameHistroy>

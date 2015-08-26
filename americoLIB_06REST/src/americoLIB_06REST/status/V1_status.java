@@ -12,6 +12,7 @@ public class V1_status {
 	//ATTRIBUTES
 	private static final String api_version = "00.01.00";
 	
+	//########################################
 	@GET
 	@Produces(MediaType.TEXT_HTML)
 	public String returnTitle() {
@@ -24,5 +25,7 @@ public class V1_status {
 	public String returnVersion() {
 		return "<p>Version:</p>" + api_version;
 	}
+	//########################################
 
+	
 }

@@ -1,0 +1,47 @@
+package main;
+
+import java.util.Date;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.americoLib.UserDetails_Annotation_01;
+import com.americoLib.UserDetails_Annotation_02;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		//INSTANTIATE 
+		UserDetails_Annotation_01 user = new UserDetails_Annotation_01();
+		user.setUserId(8);
+		user.setUserName("OITH USER ANNOTATION TABLE");
+		
+		user.setAddress("my address");
+		user.setJoinedDate(new Date());
+		user.setDescription("description");
+		
+//		UserDetails_Annotation_02 user = new UserDetails_Annotation_02();
+//		user.setUserId(2);
+//		user.setUserName("TWO USER ANNOTATION GETTER");
+		
+		//SAVE OBJECT IN DATABASE (hibernate api) 
+		//1-SESSION FACTORY(get config file)
+		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+
+		//2-SESSION FROM THE SESSION FACTORY (multiple) 
+		Session session = sessionFactory.openSession();
+		//2.1-NEW TRANSACTION
+		session.beginTransaction();
+		
+		//3-SAVE MODEL OBJECTS
+		session.save(user);
+		session.getTransaction().commit();
+		
+		//SESSION FROM THE SESSION FACTORY (multiple) 
+
+
+	}
+
+}
