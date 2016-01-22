@@ -30,4 +30,6 @@
 <fullyQualifiedTypeName name="javax.persistence.Basic"/>
 <fullyQualifiedTypeName name="javax.persistence.Transient"/>
 <fullyQualifiedTypeName name="javax.persistence.Temporal"/>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="javax.jws.WebMethod"/>
 </qualifiedTypeNameHistroy>
